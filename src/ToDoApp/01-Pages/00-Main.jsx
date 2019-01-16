@@ -5,7 +5,7 @@ class MainComp extends React.Component {
     return(
       <div>
         <h1>Main Component here</h1>
-        <p>More...</p>
+        <p>More. to come</p>
       </div>
     )
   }

@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'build')));
 
 // ===[ ROUTES ]=====================================
 app.get('/ping', function (req, res) {  // Just to test server
- return res.send('pong');
+ return res.send('pong-response');
 });
 
 app.get('/', function (req, res) {      // Route to serve build React-App.
